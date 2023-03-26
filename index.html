@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+<head>
+	 <title> Bill Model </title>
+	 <meta charset="UTF-8">
+	 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	 <style>
+		.head{
+			width:30%;
+			height:250px;
+			border:1px solid black;
+			margin:20px 400px;
+			justify-content:center;
+			
+		}
+		.inner{
+			margin-left:60px;
+		}
+		h2{
+		    margin-left:75px;
+		}
+		#btn{
+		    margin-left:100px;
+		}
+	 </style>
+	 
+</head>
+<body>
+     <div class="head"> 
+	 <div class="inner">
+	    <h2> Bill Model </h2>
+		 <label for="amount"> Amount: </label>
+		 <input id="amount" type="number" name="amount"><br><br>
+		 <label for="tax"> Tips %:</label>
+		 <input id="tax" type="number" name="tips"><br><br>
+		 <label for="tips"> Tips: </label>
+		 <input id="tips" type="number" name="tip" disabled ><br><br>
+		 <label for="total"> Total: </label>
+		 <input id="total" type="number" name="amnt" disabled ><br><br>
+		 <button id="btn" onclick="find()"> Find </button>
+	 </div>
+	 </div>
+     
+	 
+	
+    <script src="main.js">
+		 
+	</script> 
+	
+	
+</body>
+</html>
